@@ -2,7 +2,7 @@
 
 PATH_IN=$1
 PATH_OUT=$2
-HASHES=find-duplicates.db
+HASHES=sduper.db
 
 if [ "$#" -ne 2 ] ; then
     echo "sintassi: sduper <directory input> <directory output>"
